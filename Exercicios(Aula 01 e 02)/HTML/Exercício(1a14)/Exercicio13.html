@@ -1,0 +1,43 @@
+<style>
+    table, td{
+        border: solid 1px;
+        border-collapse: collapse;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .baixoCima{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .esqDir{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 13</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="3" class="baixoCima">Cabeçalho</th>
+        </tr>
+        <tr class="esqDir">
+            <td rowspan="2" class="esqDir">Menu esquerda</td>
+            <td class="esqDir">Conteúdo superior</td>
+            <td rowspan="2" class="esqDir">Menu esquerda</td>
+        </tr>
+        <tr>
+            <td class="esqDir">Conteúdo inferior</td>            
+        </tr>
+        <tr>
+            <td colspan="3" class="baixoCima">Rodapé</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

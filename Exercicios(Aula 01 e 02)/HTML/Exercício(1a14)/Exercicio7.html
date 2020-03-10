@@ -1,0 +1,72 @@
+<style>
+    header{
+        color: blue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table, th, td{
+        border: 1px solid;
+        border-style: inset;    
+    }
+    table{
+        width: 100%;
+        border-style: outset;
+    }
+    tr:nth-child(odd){
+        background-color: rgb(167, 167, 167);
+    }
+    .green{
+        color: rgb(7, 143, 7);
+    }
+    .red{
+        color: rgb(216, 9, 9);
+    }
+</style>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 7</title>
+</head>
+<header>Notas dos Alunos</header>
+<hr style="color: black; background-color: black;">
+<body>
+    <table>
+        <tr style="background-color: white;">
+            <th>Alunos</th>
+            <th colspan="2">Notas</th>
+        </tr>
+            <tr>
+                <td>-</td>
+                <td style="font-style: italic;">Prova</td>
+                <td style="font-style: italic;">Trabalho</td>
+            </tr>
+            <tr>
+                <td>Amanda</td>
+                <td class="green">9</td>
+                <td class="green">7</td>
+            </tr>
+            <tr>
+                <td>Marina</td>
+                <td class="green">6</td>
+                <td class="red">3</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td class="green">10</td>
+                <td class="green">9</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td class="red">3,5</td>
+                <td class="green">6,5</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td class="red">4</td>
+                <td class="red">3</td>
+            </tr>
+    </table>
+    
+</body>
+</html>
